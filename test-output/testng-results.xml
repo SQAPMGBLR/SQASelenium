@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="42512" started-at="2017-05-02T13:20:43Z" finished-at="2017-05-02T13:21:25Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="42512" started-at="2017-05-02T13:20:43Z" finished-at="2017-05-02T13:21:25Z">
+      <class name="Sdlc.OpenApp">
+        <test-method status="PASS" signature="testNG_Oprnapp()[pri:0, instance:Sdlc.OpenApp@5792a0]" name="testNG_Oprnapp" duration-ms="7472" started-at="2017-05-02T18:50:43Z" finished-at="2017-05-02T18:50:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNG_Oprnapp -->
+      </class> <!-- Sdlc.OpenApp -->
+      <class name="Sdlc.AddBook">
+        <test-method status="PASS" signature="Add_book()[pri:0, instance:Sdlc.AddBook@c4039c]" name="Add_book" duration-ms="6957" started-at="2017-05-02T18:51:14Z" finished-at="2017-05-02T18:51:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_book -->
+      </class> <!-- Sdlc.AddBook -->
+      <class name="Sdlc.CloseApp">
+        <test-method status="PASS" signature="Close_App()[pri:0, instance:Sdlc.CloseApp@cb5822]" name="Close_App" duration-ms="4057" started-at="2017-05-02T18:51:21Z" finished-at="2017-05-02T18:51:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_App -->
+      </class> <!-- Sdlc.CloseApp -->
+      <class name="Sdlc.Login">
+        <test-method status="PASS" signature="Login()[pri:0, instance:Sdlc.Login@653222]" name="Login" duration-ms="8051" started-at="2017-05-02T18:50:50Z" finished-at="2017-05-02T18:50:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- Sdlc.Login -->
+      <class name="Sdlc.AddLib">
+        <test-method status="PASS" signature="Add_lib()[pri:0, instance:Sdlc.AddLib@132ec19]" name="Add_lib" duration-ms="15950" started-at="2017-05-02T18:50:58Z" finished-at="2017-05-02T18:51:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_lib -->
+      </class> <!-- Sdlc.AddLib -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
