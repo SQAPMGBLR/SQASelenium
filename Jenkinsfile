@@ -1,9 +1,10 @@
 pipeline {
   agent any
   stages {
-    stage('Checkout from SVN') {
+    stage('Checkout from SCM') {
       steps {
-        sh 'Checking out from github'
+        echo 'Building Proj from SCM'
+        git(url: 'https://github.com/SQAPMGBLR/SQASelenium.git', branch: 'master', credentialsId: 'sqapmgblr', poll: true)
       }
     }
   }
